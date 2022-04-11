@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "features",
+  "info": {
+    "name": "2Home/ Features",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features-list.features"
+    }
+  }
+}
