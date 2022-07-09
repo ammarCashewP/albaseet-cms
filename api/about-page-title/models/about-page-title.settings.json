@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "about_page_titles",
   "info": {
-    "name": "about Page Title",
+    "name": "*7-1*About/about Page Title",
     "description": ""
   },
   "options": {
@@ -10,27 +10,51 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
       "required": true,
-      "default": "About Us"
+      "default": "About Us",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "home": {
       "type": "string",
       "default": "Home",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homeUrl": {
       "type": "string",
       "default": "/",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "activePage": {
       "type": "string",
       "default": "About Us",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

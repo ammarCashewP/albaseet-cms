@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "services",
   "info": {
-    "name": "services",
+    "name": "*3-1*services",
     "description": ""
   },
   "options": {
@@ -10,32 +10,61 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
       "default": "Services",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homeText": {
       "type": "string",
       "default": "Home",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homeUrl": {
       "type": "string",
       "default": "/",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "activePage": {
       "type": "string",
       "default": "Services",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "services": {
       "type": "component",
       "repeatable": true,
-      "component": "service-card.services"
+      "component": "service-card.services",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

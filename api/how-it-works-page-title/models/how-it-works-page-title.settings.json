@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "how_it_works_page_titles",
   "info": {
-    "name": "how It Works Page Title",
+    "name": "*2-1*how It Works Page Title",
     "description": ""
   },
   "options": {
@@ -10,32 +10,61 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
       "default": "How It Works",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homePageText": {
       "type": "string",
       "default": "Home",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homePageUrl": {
       "type": "string",
       "required": true,
-      "default": "/"
+      "default": "/",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "activePage": {
       "type": "string",
       "default": "How It Works",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Steps": {
       "type": "component",
       "repeatable": true,
-      "component": "how-it-works.steps"
+      "component": "how-it-works.steps",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

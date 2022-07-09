@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "funfact_style_ones",
   "info": {
-    "name": "funfact Style One",
+    "name": "*7-3*About/funfact Style One",
     "description": ""
   },
   "options": {
@@ -10,12 +10,21 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "funfacts": {
       "type": "component",
       "repeatable": true,
-      "component": "funfact-style-one.funfact"
+      "component": "funfact-style-one.funfact",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

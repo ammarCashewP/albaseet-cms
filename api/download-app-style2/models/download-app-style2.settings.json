@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "download_app_style2s",
   "info": {
-    "name": "download App Style 2",
+    "name": "*2-2*download App Style 2",
     "description": ""
   },
   "options": {
@@ -10,52 +10,101 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "subTitle": {
       "type": "string",
       "default": "DOWNLOAD APP",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "title": {
       "type": "string",
       "default": "Let's Get Your Free Copy From Apple and Play Store",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "shortDec": {
       "type": "string",
       "default": "Instant free download from store Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text.",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "playStoreUrl": {
       "type": "string",
       "required": true,
-      "default": "#"
+      "default": "#",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "playStoreSubTitle": {
       "type": "string",
       "default": "Get It On",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "playStoreTitle": {
       "type": "string",
       "default": "Google Play",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "appleStoreUrl": {
       "type": "string",
       "default": "#",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "appleStoreSubTitle": {
       "type": "string",
       "default": "Download on the",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "appleStoreTitle": {
       "type": "string",
       "default": "Apple Store",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image": {
       "model": "file",
@@ -65,7 +114,11 @@
       ],
       "plugin": "upload",
       "required": true,
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

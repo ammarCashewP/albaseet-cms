@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "team_members",
   "info": {
-    "name": "team Member",
+    "name": "*7-5*About/team Member",
     "description": ""
   },
   "options": {
@@ -10,22 +10,41 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "subTitle": {
       "type": "string",
       "required": true,
-      "default": "OUR EXPERTS"
+      "default": "OUR EXPERTS",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "title": {
       "type": "string",
       "required": true,
-      "default": "Meet With Our Team Member"
+      "default": "Meet With Our Team Member",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "teamMembers": {
       "type": "component",
       "repeatable": true,
-      "component": "team-member.member"
+      "component": "team-member.member",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

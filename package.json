@@ -10,7 +10,8 @@
     "strapi": "strapi"
   },
   "engines": {
-    "node": "16.14.0"
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
   },
   "dependencies": {
     "knex": "0.21.18",

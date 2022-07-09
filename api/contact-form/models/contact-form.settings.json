@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "contact_forms",
   "info": {
-    "name": "contact Form",
+    "name": "*5-2*Contact/contact Form",
     "description": ""
   },
   "options": {
@@ -10,41 +10,80 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
       "default": "Get in Touch",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "shortDec": {
       "type": "string",
       "default": "The IT industry offers a sea of options, from platforms, programming languages methodologies, technologies, tools, and more.",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "googleMap": {
       "type": "text",
-      "required": false
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "contactInfoTitle": {
       "type": "string",
       "default": "Have any question in mind please call or mail us",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "phone": {
       "type": "string",
       "default": "(+321) 895-980 008, (+321) 895-980 008",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "email": {
       "type": "string",
       "required": true,
-      "default": "hello@texap.com, info@texap.com"
+      "default": "hello@texap.com, info@texap.com",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "location": {
       "type": "string",
       "default": "121 King St, Melbourne VIC 3000, Australia.",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "key_features",
   "info": {
-    "name": "key Features",
+    "name": "*3-2*services/key Features",
     "description": ""
   },
   "options": {
@@ -10,29 +10,58 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "subTitle": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "lists": {
       "type": "component",
       "repeatable": true,
-      "component": "key-features-list.key-features"
+      "component": "key-features-list.key-features",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "btnText": {
       "type": "string",
       "required": true,
-      "default": "View More"
+      "default": "View More",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "btnUrl": {
       "type": "string",
-      "default": "/features"
+      "default": "/features",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

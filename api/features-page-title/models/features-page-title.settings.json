@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "features_page_titles",
   "info": {
-    "name": "features Page Title",
+    "name": "*6-1*Features/features Page Title",
     "description": ""
   },
   "options": {
@@ -10,27 +10,51 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
       "default": "Products Features",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homeText": {
       "type": "string",
       "default": "Home",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homeUrl": {
       "type": "string",
       "required": true,
-      "default": "/"
+      "default": "/",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "activePage": {
       "type": "string",
       "default": "Features",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

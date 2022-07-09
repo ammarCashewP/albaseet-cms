@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "our_stats",
   "info": {
-    "name": "our Stats",
+    "name": "*7-4*About/our Stats",
     "description": ""
   },
   "options": {
@@ -10,17 +10,31 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "subTitle": {
       "type": "string",
       "required": true,
-      "default": "OUR STATS"
+      "default": "OUR STATS",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "title": {
       "type": "string",
       "default": "Total User In This World",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image": {
       "model": "file",
@@ -30,7 +44,11 @@
       ],
       "plugin": "upload",
       "required": true,
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

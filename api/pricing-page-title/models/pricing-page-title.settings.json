@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "pricing_page_titles",
   "info": {
-    "name": "pricing Page Title",
+    "name": "*4-1*pricing/pricing Page Title",
     "description": ""
   },
   "options": {
@@ -10,27 +10,51 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
       "default": "Pricing Plan",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homeText": {
       "type": "string",
       "default": "Home",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "homeUrl": {
       "type": "string",
       "default": "/",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "activePageText": {
       "type": "string",
       "default": "Pricing Plan",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
